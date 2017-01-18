@@ -4,7 +4,7 @@
  *
  * The wp-config.php creation script uses this file during the
  * installation. You don't have to use the web site, you can
- * copy this file to "wp-config.php" and fill in the values.
+h * copy this file to "wp-config.php" and fill in the values.
  *
  * This file contains the following configurations:
  *
@@ -14,7 +14,7 @@
  * * ABSPATH
  *
  * @link https://codex.wordpress.org/Editing_wp-config.php
- *
+t *
  * @package WordPress
  */
 
@@ -38,16 +38,16 @@ foreach ($_SERVER as $key => $value) {
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', $connectstr_dbname);
+define('DB_NAME', 'paleo_cook');
 
 /** MySQL database username */
-define('DB_USER', $connectstr_dbusername);
+define('DB_USER', 'bd6b9f7634ae88');
 
 /** MySQL database password */
-define('DB_PASSWORD', $connectstr_dbpassword);
+define('DB_PASSWORD','3737b580');
 
 /** MySQL hostname */
-define('DB_HOST', $connectstr_dbhost);
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
